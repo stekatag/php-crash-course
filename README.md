@@ -56,12 +56,12 @@ The main directory contains PHP scripts that demonstrate each topic. Here is a b
 - `16_exceptions.php`: Introduces exception handling.
 - `17_oop.php`: Explains Object-Oriented Programming concepts.
 
-The `feedback` directory contains a simple feedback form application that allows users to submit feedback. The key files and directories in the `feedback` directory are:
+The `feedback` directory contains a feedback form application that demonstrates the use of PHP with MySQL. The application contains:
 
-- `feedback/index.php`: Main feedback form page.
-- `feedback/config/`: Contains database configuration and SQL script.
-- `feedback/inc/`: Includes header and footer files.
-- `feedback/img/logo.png`: Logo image used in the feedback application.
+- A home page (`index.php`) with a feedback form.
+- An about page (`about.php`) with information about the application.
+- A feedback page (`feedback.php`) that displays feedback submitted by users.
+- The `config` directory with the database configuration and SQL file to set up the required tables.
 
 ## Pre-requisites
 
@@ -94,7 +94,7 @@ To run the scripts in this repository:
 4. **To run the feedback form application:**
 
    - Create a MySQL database and import the `feedback/config/php_dev.sql` file to set up the required tables.
-   - Update the database configuration in `feedback/config/db.php` with your database credentials.
+   - Update the database configuration in `feedback/config/database.php` with your database credentials.
    - Access the feedback form by going to `http://localhost:8000/feedback/index.php`.
 
 ## Course Overview
